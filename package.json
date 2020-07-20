@@ -1,0 +1,15 @@
+{
+  "name": "push",
+  "version": "1.0.0",
+  "description": "Send Push Notification using Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ederson Faccin Frasson",
+  "license": "ISC",
+  "dependencies": {
+    "fcm-notification": "^2.0.0"
+  }
+}
