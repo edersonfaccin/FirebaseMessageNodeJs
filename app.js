@@ -1,6 +1,9 @@
 const fcm = require('fcm-notification')
 const FCM = new fcm('./util/pushapp-firebase-adminsdk.json')
-const tokens = ['dhlcUb4rS6GICJU9ZWc-UC:APA91bEm6U2aSgWHhV7tHGl98twb33DNNJmJCsGrnTx6xKrEvavC-lTp7sqBhh_xjHC-oLQjholgJdTbBYi0EQysTQEB0sh7PSE4e75V13f-Xy-RCzKFzkVkDIM4fCUxocY1-bvofS7k']
+
+const tokens = [
+    'cj_D9aUGCELjssdnLd-TqO:APA91bEvQtlD3crKjeP-vivRGw3rk4IK0DUBpQmYnTqaOMK7JmaWu2-xhGAk5Nkm6ETZo_BQcNVhpgh5r51iBqZNm_b2NGqwLMdmtSQbnwWIBKeBhKQef2U-IW_g12_vVUGetsj6omQB',
+]
 
 /*
 o arquivo pushapp-firebase-adminsdk.json deve ser gerado no firebase console
@@ -12,8 +15,8 @@ const message = {
         time: '2:45'
     },
     notification:{
-        title : 'Title of notification',
-        body : 'Bloqueio na estrada geral'
+        title : 'Título 12',
+        body : 'Ola, este é um teste de push notification'
     }
 }
 
